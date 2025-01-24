@@ -96,7 +96,7 @@ color: #71717a;
 }
 .facebook{
     width:85%;
-    height: 7vh;
+    height: auto;
     background-color: black;
     text-align: center;
     border-radius: 5px;
@@ -109,7 +109,7 @@ color: #71717a;
 }
 .reddit{
     width:85%;
-    height: 7vh;
+    height: auto;
     background-color:white;
     text-align: center;
     border: 3px solid black;
@@ -123,7 +123,7 @@ color: #71717a;
 }
 .twitter{
     width:85%;
-    height: 7vh;
+    height: auto;
     background-color:white;
     text-align: center;
     border: 3px solid black;
@@ -137,7 +137,7 @@ color: #71717a;
 }
 .linkedin{
     width:85%;
-    height: 7vh;
+    height: auto;
     background-color:white;
     text-align: center;
     border: 3px solid black;
@@ -185,7 +185,7 @@ color: #71717a;
 
 .figma{
     width:40%;
-    height: 18vh;
+    height: auto;
     background-color: white;
     text-align: center;
     border: 2px solid black;
@@ -200,7 +200,7 @@ color: #71717a;
 }
 .html{
     width:40%;
-    height: 18vh;
+    height: auto;
     background-color: white;
     text-align: center;
     border: 2px solid black;
@@ -221,7 +221,7 @@ color: #71717a;
 }
 .css{
     width:40%;
-    height: 18vh;
+    height: auto;
     background-color: white;
     text-align: center;
     border: 2px solid black;
@@ -236,7 +236,7 @@ color: #71717a;
 }
 .bootstrap{
     width:40%;
-    height: 18vh;
+    height: auto;
     background-color: white;
     text-align: center;
     border: 2px solid black;
@@ -251,7 +251,7 @@ color: #71717a;
 }
 .javascript{
     width:40%;
-    height: 18vh;
+    height: auto;
     background-color: black;
     text-align: center;
     border-radius: 5px;
@@ -265,7 +265,7 @@ color: #71717a;
 }
 .react{
     width:40%;
-    height: 18vh;
+    height: auto;
     background-color: white;
     text-align: center;
     border: 2px solid black;
@@ -280,7 +280,7 @@ color: #71717a;
 }
 .nodejs{
     width:40%;
-    height: 18vh;
+    height: auto;
     background-color: white;
     text-align: center;
     border: 2px solid black;
@@ -295,7 +295,7 @@ color: #71717a;
 }
 .mysql{
     width:40%;
-    height: 18vh;
+    height: auto;
     background-color: white;
     text-align: center;
     border: 2px solid black;
@@ -514,7 +514,8 @@ color: #71717a;
 .getintouch{
     font-family: "Sora", serif;
 width: 100%;
-height: 7.5vh;
+height: auto;
+padding: 10%;
 border-radius: 5px; 
 border: none;
 background-color: black;
@@ -528,7 +529,7 @@ color: white;
 }
 .facebook1{
     width:100%;
-    height: 7vh;
+    height: 70% !important;
     background-color: black;
     text-align: center;
     border-radius: 5px;
@@ -541,7 +542,7 @@ color: white;
 }
 .reddit1{
     width:100%;
-    height: 7vh;
+    height: 70% !important;
     background-color:white;
     text-align: center;
     border: 2px solid black;
@@ -555,7 +556,7 @@ color: white;
 }
 .twitter1{
     width:100%;
-    height: 7vh;
+    height: 70% !important;
     background-color:white;
     text-align: center;
     border: 2px solid black;
@@ -569,7 +570,7 @@ color: white;
 }
 .linkedin1{
     width:100%;
-    height: 7vh;
+    height: 70% !important;
     background-color:white;
     text-align: center;
     border: 2px solid black;
@@ -648,7 +649,7 @@ color: transparent;
 
 /* Medium devices (tablets, 992px to 1199px) */
 /* Ultra-small devices (phones, less than 576px) */
-@media screen and (min-width: 0px) and (max-width: 576px) {
+@media screen  and (max-width: 576px) {
  
     .img3 {
         width: 100%; /* Scale project images */
@@ -690,22 +691,22 @@ color: transparent;
     gap: 15px;
 }
 .facebook{
-    width: 90%;
-    height: 7vh;
+    width: 65%;
+    height: auto;
     padding: 10px;
 }.reddit{
-    width: 90%;
-    height: 7vh;
+    width: 65%;
+    height: auto;
     padding: 10px;
 }
 .twitter{
-    width: 90%;
-    height: 7vh;
+    width: 65%;
+    height: auto;
     padding: 10px;
 }
 .linkedin{
-    width: 90%;
-    height: 7vh;
+    width: 65%;
+    height: auto;
     padding: 10px;
 }
 
@@ -720,44 +721,44 @@ color: transparent;
    margin-left: 12%;
     }
 .figma{
-    width: 50%;
-    height: 15vh;
-    padding: 0px !important;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .html{
-    width: 50%;
-    height: 15vh;
-    padding: 0px !important;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .css{
-    width: 50%;
-    height: 15vh;
-    padding: 0px !important;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .bootstrap{
-    width: 50%;
-    height: 15vh;
-    padding: 0px !important;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .javascript{
-    width: 50%;
-    height: 15vh;
-    padding: 0px !important;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .react{
-    width: 50%;
-    height: 15vh;
-    padding: 0px !important;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .nodejs{
-    width: 50%;
-    height: 15vh;
-    padding: 0px !important;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .mysql{
-    width: 50%;
-    height: 15vh;
-    padding: 0px !important;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .section2{
     display: grid;
@@ -851,13 +852,13 @@ font-size:2.5rem;
     margin: 5%;
 }
 .getintouch{
-padding-right: 5px;
-padding-left: 5px;
-width: 50%;
+padding: 13px !important;
+width: 50% !important;
+height: auto !important;
 }
 .connect{
     margin-top: 3%;
-    width: 90%;
+    
     margin-left: 0px;
     gap: 5px;
 }
@@ -880,8 +881,9 @@ line-height: 2.5rem;
     /* white-space: pre-line; */
 }
 .getintouch,.facebook1 ,.reddit1,.twitter1,.linkedin1{
-   width: 60%;
-    height: 6vh;
+   width: 45%;
+   height: 100% !important;
+       padding: 10px;
 }
 .emailp{
     margin-top: 5%;
@@ -892,6 +894,10 @@ line-height: 2.5rem;
 
 @media screen and  (min-width: 577px) and (max-width: 768px) {
  
+    .img3 {
+        width: 100%; /* Scale project images */
+        height: auto;
+    }
     .section {
         grid-template-columns: 1fr; /* Stack boxes vertically */
     }
@@ -909,39 +915,42 @@ line-height: 2.5rem;
         margin-left: 0;
     }
     .box1 .para {
-        font-size: 3.5rem; /* Smaller font size for headlines */
+        font-size:35px; /* Smaller font size for headlines */
         line-height: 4rem;
         margin-left: 2%;
     }
-
+.role{
+    font-size: 35px;
+}
     .para1 {
-        font-size: 1rem; /* Adjust body text size */
-    margin-left: 2%;
-    text-align: justify;
+        font-size: 20px; /* Adjust body text size */
+    padding: 10px 10px 10px 10px;
     }
 
 .social{
+    width: 100%;
     margin-top: 5%;
-    margin-left: 2%;
+    margin-left: 5%;
+    gap: 15px;
 }
 .facebook{
-    width: 90%;
-    height: 7vh;
-    padding: 17px;
+    width: 65%;
+    height: auto;
+    padding: 10px;
 }.reddit{
-    width: 90%;
-    height: 7vh;
-    padding: 17px;
+    width: 65%;
+    height: auto;
+    padding: 10px;
 }
 .twitter{
-    width: 90%;
-    height: 7vh;
-    padding: 17px;
+    width: 65%;
+    height: auto;
+    padding: 10px;
 }
 .linkedin{
-    width: 90%;
-    height: 7vh;
-    padding: 17px;
+    width: 65%;
+    height: auto;
+    padding: 10px;
 }
 
     .img1 {
@@ -951,67 +960,103 @@ line-height: 2.5rem;
 
     .myskills {
         display: grid;
-        grid-template-columns: auto auto auto; /* Stack skill cards vertically */
-   
+        grid-template-columns: auto auto; /* Stack skill cards vertically */
+   margin-left: 12%;
     }
 .figma{
-    width: 45%;
-    height: 15vh;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .html{
-    width: 45%;
-    height: 15vh;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .css{
-    width: 45%;
-    height: 15vh;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .bootstrap{
-    width: 45%;
-    height: 15vh;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .javascript{
-    width: 45%;
-    height: 15vh;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .react{
-    width: 45%;
-    height: 15vh;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .nodejs{
-    width: 45%;
-    height: 15vh;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .mysql{
-    width: 45%;
-    height: 15vh;
+    width: 35%;
+    height: auto;
+    padding: 10px !important;
 }
 .section2{
     display: grid;
-    grid-template-columns: auto auto;
-    margin-top: 18%;
+    grid-template-columns: auto;
+    margin-top: 60% !important;
 }
 .box3{
     width: 100%;
-    height: 100%;
+    height: auto;
+    border: 0;
+ text-align: center;
+    /* margin: 0px 0px 0px 0px !important; */
+}
+.img2{
+    height: 60vh;
+    margin: 0px 0px 0px 0px !important;
+}
+.box4{
+    margin-top: 0;
+   padding: 0px !important;
+}
+.aboutme{
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 4%;
+    padding: 0px !important;
+}
+.aboutmep{
+    padding: 15px !important;
+    text-align: justify;
+    margin: 0px !important;
+}
+.aboutmep1{
+    padding: 15px !important;
+    text-align: justify;
+    margin: 0px !important;
 }
 .section3{
     margin-top: 5%;
 }
 .box5{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
 }
 .box5sub1{
     width: 100%;
+    margin: 0px !important;
 }
 .img3{
-    width: 85%;
+    width: 100%;
     height: 50vh;
 }
 .box5sub2{
     width: 100%;
-
+margin-top: 10px;
 margin-left: 1%;
 padding: 10px 10px 10px 10px;
 }
@@ -1020,37 +1065,71 @@ padding: 10px 10px 10px 10px;
 font-size:2.5rem;
 }
 .projectp{
-    margin-top: 1%;
+    margin-top: 5%;
 }
 .share{
-    margin-top: 2%;
+    margin-top: 5%;
+}
+.section4{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 10%;
 }
 #name,#email,#website,#textarea{
-    width: 85%;
+    width: 100%;
+   
+}
+.form{
+    margin: 0px !important;
+}
+.form1 {
+    width: 90%; /* Form input fields fit smaller screens */
+    margin: 0 auto;
 }
 .touch{
     /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: auto;
     width: 95%;
+    row-gap: 10px;
+    margin: 5%;
 }
 .getintouch{
-padding-right: 5px;
-padding-left: 5px;
+padding: 13px !important;
+width: 50% !important;
+height: auto !important;
+}
+.connect{
+    margin-top: 3%;
+    width: 90%;
+    margin-left: 0px;
+    gap: 5px;
 }
 .box7{
-    margin-top: 10%;
-    margin-left: 1px; 
+    margin-left: 2%;
+    margin-bottom: 10%;
 }
-.let,.talk{
-font-size: 2.5rem; 
-line-height: 3rem;  
+.let, .talk{
+font-size: 2rem; 
+margin-top: 15%;
+line-height: 2.3rem; 
+
 }
+
 .seek1{
     font-size: 1rem;
-    text-align: justify;
+    text-align: left;
+    margin-top: 2%;
+    line-height: 1.5rem;
     /* white-space: pre-line; */
 }
 .getintouch,.facebook1 ,.reddit1,.twitter1,.linkedin1{
-    height: 8vh;
+   width: 45%;
+   height: 100% !important;
+    padding: 10px;
+}
+.emailp{
+    margin-top: 2%;
 }
 }
 
@@ -1077,7 +1156,8 @@ line-height: 3rem;
 
 
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+
+@media screen and (min-width: 769px) and (max-width: 992px){
 
 
     .section {
@@ -1113,7 +1193,7 @@ line-height: 3rem;
     margin-left: 2%;
 }
 .facebook{
-    width: 80%;
+    width: 100%;
     height: 10vh;
     padding: 14px;
 }.reddit{
