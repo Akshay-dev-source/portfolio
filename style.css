@@ -1,0 +1,1386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .container{
+    width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  /* background-color: yellow; */
+  }
+  .nav{
+    width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  li{
+    font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    font-weight: 600;
+    font-size: 110%;
+    text-decoration: none;
+    list-style: none;
+  }
+  ul{
+    display: flex;
+    gap: 15%;
+  }
+  .button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+  }
+  
+  .navbar{
+    display: none;
+  }
+.section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* border: 2px solid orangered; */
+}
+.box1{
+    width:100%;
+    /* border: 2px solid red; */
+    margin-top: 16%;
+    margin-left: 10%;
+ 
+}
+.box1 .para{
+    white-space: pre-line;
+    line-height: 30px;
+    font-weight: 200;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+}
+.para1{
+    font-size: 1.2rem;
+    margin-top: 3%;
+white-space: pre-line;
+line-height: 1.8rem;
+color: #71717a;
+}
+.name1{
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 800;
+}
+.role{
+        font-family: "Kanit", serif;
+        font-weight: 800;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: transparent;
+-webkit-text-stroke: 2px #000;
+}
+
+.social{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    gap: 10%;
+    margin-top:10%;
+}
+.facebook{
+    width:85%;
+    height: 7vh;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+}
+.fa-facebook{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+}
+.reddit{
+    width:85%;
+    height: 7vh;
+    background-color:white;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+.fa-reddit{
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+}
+.twitter{
+    width:85%;
+    height: 7vh;
+    background-color:white;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+.fa-twitter{
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+}
+.linkedin{
+    width:85%;
+    height: 7vh;
+    background-color:white;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+.fa-linkedin{
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+}
+.box2{
+    margin-top: 10%;
+    margin-right: 55%;
+}
+.img1{
+    width: 200%;
+    height: 95%;
+}
+.section1{
+    width: 100%;
+    margin-top: 4%;
+}
+.my{
+    font-size: 2rem;
+    text-align: center;
+}
+.Skills{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.myskills{
+    width: 100%;
+    height: 45vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 12%;
+    margin-left: 5%;
+    margin-top: 5%;
+    row-gap: 15%;
+    /* border-bottom: 5px solid yellow; */
+}
+
+.figma{
+    width:40%;
+    height: 18vh;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+.fa-figma{
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    padding: 20px 0px 15px 0px;
+}
+.html{
+    width:40%;
+    height: 18vh;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+.fa-html5{
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    padding: 20px 0px 15px 0px;
+}
+.figmap,.htmlp ,.cssp ,.bootstrapp ,.reactp ,.nodejsp,.mysqlp{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.css{
+    width:40%;
+    height: 18vh;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+.fa-css{
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    padding: 20px 0px 15px 0px;
+}
+.bootstrap{
+    width:40%;
+    height: 18vh;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+.fa-bootstrap{
+        background-color: white;
+    color: black;
+    font-size: 2rem;
+    padding: 20px 0px 15px 0px;
+}
+.javascript{
+    width:40%;
+    height: 18vh;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+}
+.fa-js{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px 0px 15px 0px;
+}
+.react{
+    width:40%;
+    height: 18vh;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+.fa-react{
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    padding: 20px 0px 15px 0px;
+}
+.nodejs{
+    width:40%;
+    height: 18vh;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+.fa-node-js{
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    padding: 20px 0px 15px 0px;
+}
+.mysql{
+    width:40%;
+    height: 18vh;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+.fa-database{
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    padding: 20px 0px 15px 0px;
+}
+.section2{
+    width: 100%;
+    /* border: 2px solid green; */
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.box3{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.img2{
+    width: 90%;
+    height: 70vh;
+    padding: 40px;
+    margin-left: 3%;
+}
+.box4{
+    width: 100%;
+    /* margin-right: 150%; */
+/* border: 3px solid blue; */
+}
+.aboutme{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 45px 50px 25px 10px;
+    font-size: 2rem;
+}
+.mes{
+    font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.aboutmep{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 0px 20% 0 0;
+    margin-left: 2%; 
+    line-height: 1.5rem; 
+    text-align: justify;
+    margin-bottom: 0;
+    color: #71717a;
+}
+.aboutmep1{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 0 20% 0 0;
+    margin-left: 2%; 
+    line-height: 1.5rem; 
+    text-align: justify;
+    color: #71717a;
+    margin-top: 2%;
+}
+.section3{
+    width: 100%;
+    background-color: black; 
+    /* border: 2px solid brown; */
+}
+.p3{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    color: white; 
+    text-align: center;
+    font-size: 1.4rem;
+    word-spacing: 5px;
+   padding-top: 3%;
+    /* border: 5px solid blue; */
+}
+.Project{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+.box5{
+    display: grid;
+     grid-template-columns: 50% 50%;
+    margin-top: 5%;
+   padding-bottom: 3%;
+    /* border: 1px solid blue; */
+}
+.box5sub1{
+    width: 100%;
+    height: 100%;
+    /* border: 3px solid red; */
+    margin-bottom: 0;
+    margin-left: 7%;
+    
+}
+.img3{
+    width: 65%;
+    height: 50vh;
+    margin-left: 3%;
+    border-radius: 5px;
+}
+.box5sub2{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    margin-left: -10%;
+    padding: 10px 10px 10px 10px;
+}
+.number{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 2rem;
+}
+.titlep{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 2rem;
+    font-size: 3rem;
+}
+.projectp{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #71717a;
+    text-align: justify;
+    padding: 0px 20% 0 0;
+}
+.share{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 1.5rem;
+}
+.section4{
+    width: 100%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 3%;
+}
+.form{
+    margin-left: 10%;
+}
+.form1{
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+#name{
+    font-family: "Sora", serif;
+    width: 65%;
+    height: 6vh;
+    margin-top: 3%;
+    border: 2px solid #71717a;
+    border-radius: 3px;
+}
+#email{
+    margin-top: 10%;
+    font-family: "Sora", serif;
+    width: 65%;
+    height: 6vh;
+    margin-top: 3%;
+    border: 2px solid #71717a;
+    border-radius: 3px;
+}
+#website{
+    font-family: "Sora", serif;
+    width: 65%;
+    height: 6vh;
+    margin-top: 3%;
+    border: 2px solid #71717a;
+    border-radius: 3px;
+}
+#textarea{
+    font-family: "Sora", serif;
+    width: 65%;
+    height: 15vh;
+    margin-top: 3%;
+    border: 2px solid #71717a;
+    border-radius: 3px;
+    resize: none;
+}
+.yourname{
+    padding: 10px 10px 10px 15px;
+} 
+.email{
+    padding: 10px 10px 10px 15px;
+}
+.website{
+    padding: 10px 10px 10px 15px;
+}
+.textarea{
+    padding: 10px 10px 10px 15px;
+}
+.touch{
+    display: grid;
+    grid-template-columns: 25% 20% 20% 20% 20%;
+    margin-top: 5%;
+    margin-left: 10%;
+    height: 10vh;
+}
+.getintouch{
+    font-family: "Sora", serif;
+width: 100%;
+height: 7.5vh;
+border-radius: 5px; 
+border: none;
+background-color: black;
+color: white;
+}
+.connect{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 18%;
+    margin-left: 10%;
+}
+.facebook1{
+    width:100%;
+    height: 7vh;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+.fa-facebook{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+}
+.reddit1{
+    width:100%;
+    height: 7vh;
+    background-color:white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+.fa-reddit{
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+}
+.twitter1{
+    width:100%;
+    height: 7vh;
+    background-color:white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+.fa-twitter{
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+}
+.linkedin1{
+    width:100%;
+    height: 7vh;
+    background-color:white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+.fa-linkedin{
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+}
+.box7{
+    margin-left: -20%;
+}
+.let{
+    font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  white-space: pre-line;
+  font-size: 3rem;
+  word-spacing: 2px;
+  margin-top: 2%;
+  line-height: 4rem;
+}
+.talk{
+    font-family: "Kanit", serif;
+    font-weight: 800;
+font-size: 3rem;
+font-weight: bolder;
+color: transparent;
+-webkit-text-stroke: 2px #000;
+}
+.seek1{
+    white-space: pre-line;
+    color: #71717a;
+    margin-top: 1%;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.emailp{
+    font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 3%;
+}
+.phonep{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 1%;
+}
+
+
+/* navbar */
+/* tablet */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (tablets, 992px to 1199px) */
+/* Ultra-small devices (phones, less than 576px) */
+@media screen and (min-width: 0px) and (max-width: 576px) {
+ 
+    .img3 {
+        width: 100%; /* Scale project images */
+        height: auto;
+    }
+    .section {
+        grid-template-columns: 1fr; /* Stack boxes vertically */
+    }
+
+    .box1 {
+        margin: 20px auto;/* Center-align text */
+    }
+
+    .box2 {
+        margin: 10px auto;
+        order: -1; /* Move image above text */
+        text-align: center;
+    }
+    .box1{
+        margin-left: 0;
+    }
+    .box1 .para {
+        font-size:35px; /* Smaller font size for headlines */
+        line-height: 4rem;
+        margin-left: 2%;
+    }
+.role{
+    font-size: 35px;
+}
+    .para1 {
+        font-size: 20px; /* Adjust body text size */
+    padding: 10px 10px 10px 10px;
+    }
+
+.social{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    gap: 15px;
+}
+.facebook{
+    width: 90%;
+    height: 7vh;
+    padding: 10px;
+}.reddit{
+    width: 90%;
+    height: 7vh;
+    padding: 10px;
+}
+.twitter{
+    width: 90%;
+    height: 7vh;
+    padding: 10px;
+}
+.linkedin{
+    width: 90%;
+    height: 7vh;
+    padding: 10px;
+}
+
+    .img1 {
+        width: 100%; /* Scale the image to fit smaller screens */
+        height: auto;
+    }
+
+    .myskills {
+        display: grid;
+        grid-template-columns: auto auto; /* Stack skill cards vertically */
+   margin-left: 12%;
+    }
+.figma{
+    width: 50%;
+    height: 15vh;
+    padding: 0px !important;
+}
+.html{
+    width: 50%;
+    height: 15vh;
+    padding: 0px !important;
+}
+.css{
+    width: 50%;
+    height: 15vh;
+    padding: 0px !important;
+}
+.bootstrap{
+    width: 50%;
+    height: 15vh;
+    padding: 0px !important;
+}
+.javascript{
+    width: 50%;
+    height: 15vh;
+    padding: 0px !important;
+}
+.react{
+    width: 50%;
+    height: 15vh;
+    padding: 0px !important;
+}
+.nodejs{
+    width: 50%;
+    height: 15vh;
+    padding: 0px !important;
+}
+.mysql{
+    width: 50%;
+    height: 15vh;
+    padding: 0px !important;
+}
+.section2{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 70% !important;
+}
+.box3{
+    width: 100%;
+    height: auto;
+    border: 0;
+ text-align: center;
+    /* margin: 0px 0px 0px 0px !important; */
+}
+.img2{
+    height: 60vh;
+    margin: 0px 0px 0px 0px !important;
+}
+.box4{
+    margin-top: 0;
+   padding: 0px !important;
+}
+.aboutme{
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 4%;
+    padding: 0px !important;
+}
+.aboutmep{
+    padding: 15px !important;
+    text-align: justify;
+    margin: 0px !important;
+}
+.aboutmep1{
+    padding: 15px !important;
+    text-align: justify;
+    margin: 0px !important;
+}
+.section3{
+    margin-top: 5%;
+}
+.box5{
+    display: grid;
+    grid-template-columns: auto;
+}
+.box5sub1{
+    width: 100%;
+    margin: 0px !important;
+}
+.img3{
+    width: 100%;
+    height: 50vh;
+}
+.box5sub2{
+    width: 100%;
+margin-top: 10px;
+margin-left: 1%;
+padding: 10px 10px 10px 10px;
+}
+.titlep{
+    margin-top: 1%;
+font-size:2.5rem;
+}
+.projectp{
+    margin-top: 5%;
+}
+.share{
+    margin-top: 5%;
+}
+.section4{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 10%;
+}
+#name,#email,#website,#textarea{
+    width: 100%;
+   
+}
+.form{
+    margin: 0px !important;
+}
+.form1 {
+    width: 90%; /* Form input fields fit smaller screens */
+    margin: 0 auto;
+}
+.touch{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: auto;
+    width: 95%;
+    row-gap: 10px;
+    margin: 5%;
+}
+.getintouch{
+padding-right: 5px;
+padding-left: 5px;
+width: 50%;
+}
+.connect{
+    margin-top: 3%;
+    width: 90%;
+    margin-left: 0px;
+    gap: 5px;
+}
+.box7{
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+.let, .talk{
+font-size: 2rem; 
+margin-top: 15%;
+line-height: 2.5rem; 
+
+}
+
+.seek1{
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 5%;
+    line-height: 1.5rem;
+    /* white-space: pre-line; */
+}
+.getintouch,.facebook1 ,.reddit1,.twitter1,.linkedin1{
+   width: 60%;
+    height: 6vh;
+}
+.emailp{
+    margin-top: 5%;
+}
+}
+
+
+
+@media screen and  (min-width: 577px) and (max-width: 768px) {
+ 
+    .section {
+        grid-template-columns: 1fr; /* Stack boxes vertically */
+    }
+
+    .box1 {
+        margin: 20px auto;/* Center-align text */
+    }
+
+    .box2 {
+        margin: 10px auto;
+        order: -1; /* Move image above text */
+        text-align: center;
+    }
+    .box1{
+        margin-left: 0;
+    }
+    .box1 .para {
+        font-size: 3.5rem; /* Smaller font size for headlines */
+        line-height: 4rem;
+        margin-left: 2%;
+    }
+
+    .para1 {
+        font-size: 1rem; /* Adjust body text size */
+    margin-left: 2%;
+    text-align: justify;
+    }
+
+.social{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.facebook{
+    width: 90%;
+    height: 7vh;
+    padding: 17px;
+}.reddit{
+    width: 90%;
+    height: 7vh;
+    padding: 17px;
+}
+.twitter{
+    width: 90%;
+    height: 7vh;
+    padding: 17px;
+}
+.linkedin{
+    width: 90%;
+    height: 7vh;
+    padding: 17px;
+}
+
+    .img1 {
+        width: 100%; /* Scale the image to fit smaller screens */
+        height: auto;
+    }
+
+    .myskills {
+        display: grid;
+        grid-template-columns: auto auto auto; /* Stack skill cards vertically */
+   
+    }
+.figma{
+    width: 45%;
+    height: 15vh;
+}
+.html{
+    width: 45%;
+    height: 15vh;
+}
+.css{
+    width: 45%;
+    height: 15vh;
+}
+.bootstrap{
+    width: 45%;
+    height: 15vh;
+}
+.javascript{
+    width: 45%;
+    height: 15vh;
+}
+.react{
+    width: 45%;
+    height: 15vh;
+}
+.nodejs{
+    width: 45%;
+    height: 15vh;
+}
+.mysql{
+    width: 45%;
+    height: 15vh;
+}
+.section2{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 18%;
+}
+.box3{
+    width: 100%;
+    height: 100%;
+}
+.section3{
+    margin-top: 5%;
+}
+.box5{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.box5sub1{
+    width: 100%;
+}
+.img3{
+    width: 85%;
+    height: 50vh;
+}
+.box5sub2{
+    width: 100%;
+
+margin-left: 1%;
+padding: 10px 10px 10px 10px;
+}
+.titlep{
+    margin-top: 1%;
+font-size:2.5rem;
+}
+.projectp{
+    margin-top: 1%;
+}
+.share{
+    margin-top: 2%;
+}
+#name,#email,#website,#textarea{
+    width: 85%;
+}
+.touch{
+    /* border: 1px solid red; */
+    width: 95%;
+}
+.getintouch{
+padding-right: 5px;
+padding-left: 5px;
+}
+.box7{
+    margin-top: 10%;
+    margin-left: 1px; 
+}
+.let,.talk{
+font-size: 2.5rem; 
+line-height: 3rem;  
+}
+.seek1{
+    font-size: 1rem;
+    text-align: justify;
+    /* white-space: pre-line; */
+}
+.getintouch,.facebook1 ,.reddit1,.twitter1,.linkedin1{
+    height: 8vh;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+
+    .section {
+        grid-template-columns: 1fr; /* Stack boxes vertically */
+    }
+
+    .box1 {
+        margin: 20px auto;/* Center-align text */
+    }
+
+    .box2 {
+        margin: 10px auto;
+        order: -1; /* Move image above text */
+        text-align: center;
+    }
+    .box1{
+        margin-left: 0;
+    }
+    .box1 .para {
+        font-size: 3.5rem; /* Smaller font size for headlines */
+        line-height: 4rem;
+        margin-left: 2%;
+    }
+
+    .para1 {
+        font-size: 1rem; /* Adjust body text size */
+    margin-left: 2%;
+    text-align: justify;
+    }
+
+.social{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.facebook{
+    width: 80%;
+    height: 10vh;
+    padding: 14px;
+}.reddit{
+    width: 80%;
+    height: 10vh;
+    padding: 14px;
+}
+.twitter{
+    width: 80%;
+    height: 10vh;
+    padding: 14px;
+}
+.linkedin{
+    width: 80%;
+    height: 10vh;
+    padding: 14px;
+}
+
+    .img1 {
+        width: 100%; /* Scale the image to fit smaller screens */
+        height: auto;
+    }
+
+    .myskills {
+        display: grid;
+        grid-template-columns: auto auto auto; /* Stack skill cards vertically */
+   
+    }
+.figma{
+    width: 35%;
+}
+.html{
+    width: 35%;
+}
+.css{
+    width: 35%;
+}
+.bootstrap{
+    width: 35%;
+}
+.javascript{
+    width: 35%;
+}
+.react{
+    width: 35%;
+}
+.nodejs{
+    width: 35%;
+}
+.mysql{
+    width: 35%;
+}
+.section2{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 18%;
+}
+.box3{
+    width: 100%;
+    height: 100%;
+}
+.section3{
+    margin-top: 5%;
+}
+.box5{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.box5sub1{
+    width: 100%;
+}
+.img3{
+    width: 85%;
+    height: 50vh;
+}
+.box5sub2{
+    width: 100%;
+
+margin-left: 1%;
+padding: 10px 10px 10px 10px;
+}
+.titlep{
+    margin-top: 1%;
+font-size:2.5rem;
+}
+.projectp{
+    margin-top: 1%;
+}
+.share{
+    margin-top: 2%;
+}
+#name,#email,#website,#textarea{
+    width: 85%;
+}
+.touch{
+    /* border: 1px solid red; */
+    width: 95%;
+}
+.getintouch{
+padding-right: 5px;
+padding-left: 5px;
+}
+.box7{
+    /* margin-top: 10%; */
+    margin-left: 1px; 
+}
+.let,.talk{
+font-size: 2.5rem; 
+line-height: 3rem;  
+}
+.seek1{
+    font-size: 1rem;
+    text-align: justify;
+    /* white-space: pre-line; */
+}
+.getintouch,.facebook1 ,.reddit1,.twitter1,.linkedin1{
+    height: 8vh;
+}
+}
+
+
+
+
+/* navbar */
+
+
+@media screen and (max-width: 768px) {
+    .nav{
+      display: none;
+    }
+    .navbar{
+      display: block;
+    }
+    #menu-toggle:checked + .menu-icon .close-menu {
+      display: block;
+    }
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+    
+    .logo2{
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+      display: flex;
+      align-items: center;
+    }
+    .logo1{
+      width: 100%;
+        height: 100%;
+        font-size: 1.4rem;
+        color: white;
+        border-radius: 50%;
+        padding: 3px;
+        text-align: center;
+        display: inline;
+        background-color: black;
+      
+      }
+    
+    .menu {
+     display: flex;
+      align-items: center;
+      gap: 20px;
+    } 
+    
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    
+    .nav-links li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+    
+    .nav-links li a:hover {
+      color: black;
+    }
+    
+    .btn {
+      background-color: black;
+      color: #fff;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.3s;
+    }
+    
+    .btn:hover {
+      background-color: black ;
+    }
+    
+    .menu-icon {
+      display: none;
+      font-size: 28px;
+      cursor: pointer;
+    }
+    
+    .menu-icon span {
+      display: none;
+    }
+    
+    #menu-toggle {
+      display: none;
+    }
+    
+    #menu-toggle:checked + .menu-icon .open-menu {
+      display: none;
+    }
+    
+    #menu-toggle:checked + .menu-icon .close-menu {
+      display: block;
+    }
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      padding: 15px 0;
+      text-align: center;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .nav-links li {
+      text-align: center;
+      padding: 3px;
+    }
+  
+    .btn {
+        text-align: center;
+      width:35%;
+      padding: 10px;
+    }
+  
+    #menu-toggle:checked + .menu-icon + .menu {
+      display: flex;
+    }
+  
+    .menu-icon {
+      display: block;
+      font-size: 28px;
+    }
+  
+    .menu-icon .open-menu {
+      display: block;
+    }
+  }
